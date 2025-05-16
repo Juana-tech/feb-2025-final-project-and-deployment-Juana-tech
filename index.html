@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="featured-post">
+            <article>
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" alt="Web development">
+                <div class="post-content">
+                    <h2>Featured Post: The Future of Web Development</h2>
+                    <p class="post-meta">Published on <time datetime="2023-05-15">May 15, 2023</time> by Juanita Achieng</p>
+                    <p>Explore the latest trends and technologies shaping the future of web development in this comprehensive article.</p>
+                    <a href="posts/post1.html" class="read-more">Read More</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="React">
+                    <h3>Getting Started with React</h3>
+                    <p class="post-meta">Published on <time datetime="2023-05-10">May 10, 2023</time> by Casey Jones</p>
+                    <p>A beginner's guide to React.js, covering components, state, and props.</p>
+                    <a href="posts/post1.html" class="read-more">Read More</a>
+                </article>
+
+                <article class="post-card">
+                    <img src="https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="CSS">
+                    <h3>CSS Grid vs Flexbox</h3>
+                    <p class="post-meta">Published on <time datetime="2023-05-05">May 5, 2023</time> by Daniella Bynum</p>
+                    <p>When to use CSS Grid and when to use Flexbox for your layouts.</p>
+                    <a href="posts/post2.html" class="read-more">Read More</a>
+                </article>
+
+                <article class="post-card">
+                    <img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="JavaScript">
+                    <h3>JavaScript ES6 Features</h3>
+                    <p class="post-meta">Published on <time datetime="2023-04-28">April 28, 2023</time> by Sarah Williams</p>
+                    <p>Essential ES6 features every JavaScript developer should know.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <p id="form-feedback"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
