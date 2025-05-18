@@ -23,6 +23,7 @@ This is a simple blog website with:
 That's it! No special software needed.
 
 **For Developers**
+
 If you want to modify this project:
 
 - Edit HTML files for content
@@ -32,6 +33,7 @@ If you want to modify this project:
 - Update functionality in js/script.js
 
 **License**
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 In simple terms:
@@ -44,7 +46,8 @@ In simple terms:
 
 - Credit is appreciated but not required
 
-Contact
+**Contact**
+
 Have questions? Email me at: juanitaachieng37@gmail.com
 
 
