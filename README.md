@@ -1,7 +1,9 @@
 **My Personal Blog Website**
+
 A clean, responsive blog website built with HTML, CSS, and JavaScript.
 
 **About This Project**
+
 This is a simple blog website with:
 
 - Homepage with featured articles
@@ -13,6 +15,7 @@ This is a simple blog website with:
 - Mobile-friendly design
 
 **How to Use**
+
 - Download or clone this repository
 
 - Open index.html in your web browser
